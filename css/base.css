@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: rgb(35, 35, 35);
+}
+
+.header-home{
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+    width: 100%;
+}
+
+#header-nav-home{
+    margin-right: 18%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+#cadastro{
+    font-size: 28px;
+    color: rgb(0, 89, 255);
+    font-weight: bold;
+    padding: 4px;
+}
+
+#login{
+    font-size: 20px;
+    color: rgb(0, 89, 255);
+    font-weight: bold;
+    padding: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(141, 141, 141);
+    border-radius: 8px;
+    width: 75px;
+}
+
+#logo a:hover{
+    background-color: rgb(18, 18, 18);
+}
+
+#logo{
+    margin-left: 22%;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
