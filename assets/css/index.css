@@ -6,6 +6,13 @@ body{
     margin: 0;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 nav{
     display: flex;
     background-color: #CECECE;
@@ -14,6 +21,18 @@ nav{
     justify-content: space-around;
     height: 7em;
     align-items: center;
+}
+section{
+    position: relative;
+    top: 7em;
+}
+footer{
+    width: 100%;
+    position: relative;
+    background-color: #CECECE;
+    margin-top: 150px;
+    height: 7em;
+
 }
 
 #navegacao ul{
@@ -48,10 +67,6 @@ a:hover{
     padding: 4px;
     border-radius: 1em;
     font-size: 105%;
-}
-
-a:hover #cabecalho_aluno{
-
 }
 
 hr{
