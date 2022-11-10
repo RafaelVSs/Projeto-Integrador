@@ -1,65 +1,95 @@
+/*------------
+Header*/
+
+
 body{
     margin: 0;
-    background-color: rgb(35, 35, 35);
 }
 
-.header-home{
-    background-color: rgb(18, 18, 18);
+nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 4em;
-    width: 100%;
-}
-
-#header-nav-home{
-    margin-right: 18%;
-}
-
-ul{
-    display: flex;
+    background-color: #CECECE;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: space-around;
+    height: 7em;
     align-items: center;
 }
 
-li{
+#navegacao ul{
+    display: flex;
+    height: 2em;
+    align-items: center;
+}
+
+#navegacao li{
     list-style: none;
-    margin: 0 20px;
+    margin: 0 30px 0 0;
+    display: flex;
+    text-align: center;
 }
 
-#cadastro{
-    font-size: 28px;
-    color: rgb(0, 89, 255);
-    font-weight: bold;
-    padding: 4px;
-}
-
-#login{
-    font-size: 20px;
-    color: rgb(0, 89, 255);
-    font-weight: bold;
-    padding: 4px;
+#cabecalho_aluno{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 1em;
+    font-size: 18px;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 a:hover{
-    background-color: rgb(141, 141, 141);
-    border-radius: 8px;
-    width: 75px;
+    background-color: #ffffff;
+    color: #9E0303;
+    transition: 0.5s;
+    padding: 4px;
+    border-radius: 1em;
+    font-size: 105%;
 }
 
-#logo a:hover{
-    background-color: rgb(18, 18, 18);
+a:hover #cabecalho_aluno{
+
 }
 
-#logo{
-    margin-left: 22%;
+hr{
+    margin: 0;
+    height: 2em;
+    background-color: #9E0303;
 }
 
-h1{
+/*----------------------------------------------
+Conteúdo Inicio*/
+
+h2{
     text-align: center;
-    font-size: 35px;
-    color: white;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#conteudo{
+    display: flex;
+    margin-top: 5em;
+    padding: 55px;
+    height: 37em;
+}
+
+#img_inicial{
+    width: 50%;
+}
+
+#img_inicial img{
+    width: 100%;
+}
+
+ul{
+    width: 50%;
+}
+
+#conteudo li{
+    list-style: none;
+    margin-top: 2em;
+    font-size: 20px;
 }
