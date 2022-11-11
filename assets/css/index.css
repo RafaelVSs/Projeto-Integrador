@@ -1,11 +1,15 @@
-/*------------
-Header*/
 
-
-body{
+*{
+    scroll-behavior: smooth;
     margin: 0;
 }
 
+main{
+    margin: 40px 0;
+}
+
+/*------------
+Header*/
 header{
     position: fixed;
     top: 0;
@@ -26,18 +30,6 @@ nav{
 #logo{
     width: 50px;
     height: 50px;
-}
-section{
-    position: relative;
-    top: 7em;
-}
-footer{
-    width: 100%;
-    position: relative;
-    background-color: #CECECE;
-    margin-top: 150px;
-    height: 7em;
-
 }
 
 #navegacao ul{
@@ -74,26 +66,38 @@ a:hover{
     font-size: 105%;
 }
 
-hr{
-    margin: 0;
-    height: 2em;
+#detalhe_linha{
+    height: 0.5em;
     background-color: #9E0303;
+}
+
+section{
+    position: relative;
+    top: 5.5em;
+}
+
+#inicio, #calendario, #contato{
+    background-color: #ffffff
+}
+
+#cursos, #disciplinas{
+    background-color: #cecece
 }
 
 /*----------------------------------------------
 Conteúdo Inicio*/
 
-h2{
+#titulo{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 15px;
 }
 
-#conteudo{
-    display: flex;
-    margin-top: 5em;
-    padding: 55px;
-    height: 37em;
+.page{
+    display: block;
+    margin-top: 2em;
+    padding: 0 25px;
 }
 
 #img_inicial{
@@ -106,10 +110,33 @@ h2{
 
 ul{
     width: 50%;
+    text-align: center;
 }
 
-#conteudo li{
+.page li{
     list-style: none;
     margin-top: 2em;
     font-size: 20px;
+}
+
+.conteudo{
+    display: flex;
+    padding: 1em;
+}
+
+
+/*----------------------------
+
+
+
+
+/*-------------------
+Footer*/
+
+footer{
+    width: 100%;
+    position: relative;
+    background-color: #CECECE;
+    margin-top: 150px;
+    height: 7em;
 }
