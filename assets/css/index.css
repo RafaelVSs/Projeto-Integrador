@@ -1,20 +1,16 @@
-
 *{
     scroll-behavior: smooth;
     margin: 0;
 }
 
-main{
-    margin: 40px 0;
-}
-
 /*------------
 Header*/
 header{
+    width: 100%;
+    z-index: 1;
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 10;
+    height: 5em;
 }
 
 nav{
@@ -23,13 +19,11 @@ nav{
     font-weight: bold;
     font-size: 16px;
     justify-content: space-around;
-    height: 7em;
     align-items: center;
 }
 
 #logo{
     width: 50px;
-    height: 50px;
 }
 
 #navegacao ul{
@@ -72,8 +66,8 @@ a:hover{
 }
 
 section{
-    position: relative;
-    top: 5.5em;
+    height: 100vh;
+    display: flex;
 }
 
 #inicio, #calendario, #contato{
@@ -96,8 +90,8 @@ Conteúdo Inicio*/
 
 .page{
     display: block;
-    margin-top: 2em;
     padding: 0 25px;
+    margin-top:  5em;
 }
 
 #img_inicial{
