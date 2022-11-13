@@ -51,7 +51,7 @@ a{
     color: black;
 }
 
-a:hover{
+#cabecalho_aluno a:hover{
     background-color: #ffffff;
     color: #9E0303;
     transition: 0.5s;
@@ -74,7 +74,7 @@ section{
     align-items: center;
 }
 
-#inicio, #calendario, #contato{
+#calendario, #contato{
     background-color: #ffffff
 }
 
@@ -85,12 +85,58 @@ section{
 /*----------------------------------------------
 Conteúdo Inicio*/
 
+#inicio{
+    background: #2b0606;
+    color: white;
+}
+
+.conteudo{
+    width: 99%;
+    text-align: left;
+    display: flex;
+    padding: 1em;
+}
+
 #titulo{
-    text-align: center;
-    font-weight: bold;
-    font-size: 26px;
-    margin: 50px;
-    padding: 15px;
+    margin: 0px;
+    width: 40%;
+}
+
+#titulo h1{
+    font-weight: normal;
+    font-size: 100px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#titulo h3{
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#titulo #bot_comecar{
+    margin-top: 50px;
+}
+
+#bot_comecar{
+    background-color: white;
+    color: #ff0000;
+    padding: 5px;
+    border-radius: 2em;
+    border-color: #ffffff;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: #927070;
+    color: #9E0303;
+    transition: 0.2s;
+    padding: 4px;
+    border-radius: 1em;
+    font-size: 105%;
+
 }
 
 .page{
@@ -100,7 +146,8 @@ Conteúdo Inicio*/
 }
 
 #img_inicial{
-    width: 50%;
+    margin-right: 3em;
+    width: 40%;
 }
 
 #img_inicial img{
@@ -118,11 +165,21 @@ ul{
     font-size: 20px;
 }
 
-.conteudo{
+#text-footer{
     display: flex;
-    padding: 1em;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    width: 100%;
 }
 
+#text-footer ul{
+    width: 100%;
+}
+
+#text-footer p{
+    font-size: 18px;
+}
 
 /*----------------------------
 
