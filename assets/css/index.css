@@ -3,23 +3,22 @@
     margin: 0;
 }
 
-/*------------
-Header*/
+/*---Header---*/
 header{
     width: 100%;
     z-index: 1;
     position: fixed;
-    top: 0;
-    height: 5em;
 }
 
 nav{
     display: flex;
     background-color: #CECECE;
+    padding: 4px;
     font-weight: bold;
     font-size: 16px;
     justify-content: space-around;
     align-items: center;
+    height: 5em;
 }
 
 #logo{
@@ -39,11 +38,15 @@ nav{
     text-align: center;
 }
 
-#cabecalho_aluno{
-    background-color: #ffffff;
+#navegacao a{
     padding: 5px;
+}
+
+#navegacao a:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #9E0303;
     border-radius: 1em;
-    font-size: 18px;
 }
 
 a{
@@ -51,13 +54,16 @@ a{
     color: black;
 }
 
-#cabecalho_aluno a:hover{
+#bot_cadastro{
     background-color: #ffffff;
-    color: #9E0303;
-    transition: 0.5s;
-    padding: 4px;
     border-radius: 1em;
-    font-size: 105%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#bot_cadastro a:hover{
+    transition: 0.5s;
+    font-size: 25px;
 }
 
 #detalhe_linha{
@@ -82,113 +88,7 @@ section{
     background-color: #cecece
 }
 
-/*----------------------------------------------
-Conteúdo Inicio*/
-
-#inicio{
-    background: #2b0606;
-    color: white;
-}
-
-.conteudo{
-    width: 99%;
-    text-align: left;
-    display: flex;
-    padding: 1em;
-}
-
-#titulo{
-    margin: 0px;
-    width: 40%;
-}
-
-#titulo h1{
-    font-weight: normal;
-    font-size: 100px;
-    margin: 0px;
-    padding: 20px;
-}
-
-#titulo h3{
-    font-weight: normal;
-    font-size: 80px;
-    margin: 0px;
-    padding: 20px;
-}
-
-#titulo #bot_comecar{
-    margin-top: 50px;
-}
-
-#bot_comecar{
-    background-color: white;
-    color: #ff0000;
-    padding: 5px;
-    border-radius: 2em;
-    border-color: #ffffff;
-    font-size: 25px;
-}
-
-a:hover{
-    background-color: #927070;
-    color: #9E0303;
-    transition: 0.2s;
-    padding: 4px;
-    border-radius: 1em;
-    font-size: 105%;
-
-}
-
-.page{
-    display: block;
-    padding: 0 25px;
-    margin-top: 5em;
-}
-
-#img_inicial{
-    margin-right: 3em;
-    width: 40%;
-}
-
-#img_inicial img{
-    width: 100%;
-}
-
-ul{
-    width: 50%;
-    text-align: center;
-}
-
-.page li{
-    list-style: none;
-    margin-top: 2em;
-    font-size: 20px;
-}
-
-#text-footer{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 40px 0px 0px 0px;
-    width: 100%;
-}
-
-#text-footer ul{
-    width: 100%;
-}
-
-#text-footer p{
-    font-size: 18px;
-}
-
-/*----------------------------
-
-
-
-
-/*-------------------
-Footer*/
-
+/*---Footer---*/
 footer{
     width: 100%;
     position: relative;
