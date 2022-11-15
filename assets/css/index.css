@@ -3,14 +3,16 @@
     margin: 0;
 }
 
-/*---Header---*/
+
+
+/*HEADER*/
 header{
     width: 100%;
     z-index: 1;
     position: fixed;
 }
 
-nav{
+header nav{
     display: flex;
     background-color: #CECECE;
     padding: 4px;
@@ -21,74 +23,68 @@ nav{
     height: 5em;
 }
 
-#logo{
-    width: 50px;
+header #logo{
+    width: 60px;
 }
 
-#navegacao ul{
+header #navegacao ul{
     display: flex;
     height: 2em;
     align-items: center;
 }
 
-#navegacao li{
+header #navegacao li{
     list-style: none;
     margin: 0 30px 0 0;
     display: flex;
     text-align: center;
 }
 
-#navegacao a{
+header #navegacao a{
     padding: 5px;
 }
 
-#navegacao a:hover{
+header #navegacao a:hover{
     transition: 0.5s;
     background-color: #ffffff;
     color: #9E0303;
     border-radius: 1em;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
 
-#bot_cadastro{
+header #bot_cadastro{
     background-color: #ffffff;
     border-radius: 1em;
     font-size: 20px;
     padding: 5px;
 }
 
-#bot_cadastro a:hover{
+header #bot_cadastro a:hover{
     transition: 0.5s;
     font-size: 25px;
 }
 
-#detalhe_linha{
+header #detalhe_linha{
     height: 0.5em;
     background-color: #9E0303;
 }
 
+
+
+/*SECTION*/
 section{
     width: 99.14vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
-#calendario, #contato{
-    background-color: #ffffff
-}
 
-#cursos, #disciplinas{
-    background-color: #cecece
-}
 
-/*---Footer---*/
+/*FOOTER*/
 footer{
     width: 100%;
     position: relative;

@@ -1,0 +1,226 @@
+/*INICIO*/
+
+#inicio{
+    background: #2b0606;
+    color: white;
+}
+
+#inicio .page{
+    padding: 0 25px;
+    margin-top: 12em;
+    
+}
+
+#inicio .page li{
+    list-style: none;
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+#inicio .conteudo{
+    width: 99%;
+    text-align: left;
+    display: flex;
+    padding: 1em;
+}
+
+#inicio #titulo{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+}
+
+#inicio #titulo h1{
+    font-weight: normal;
+    font-size: 100px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#inicio #titulo h3{
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#inicio #bot_comecar{
+    color: #ffffff;
+    margin-top: 70px;
+    margin-left: 80px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+#inicio #bot_comecar a{
+    text-decoration: none;
+    color: #ffffff;
+    border: white solid 2px;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+#inicio #bot_comecar a:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color: #9E0303;
+    border-radius: 1em;
+}
+
+#inicio #img_inicial{
+    width: 40%;
+}
+
+#inicio #img_inicial img{
+    width: 100%;
+    margin-left: 5em;
+}
+
+#inicio ul{
+    width: 50%;
+    text-align: center;
+}
+
+#inicio #text-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+}
+
+#inicio #text-footer ul{
+    width: 100%;
+}
+
+#inicio #text-footer li{
+    width: 25%;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+#inicio #text-footer p{
+    font-size: 18px;
+    text-indent: 1.5em;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+/*CURSOS*/
+#cursos{
+    background-color: #cecece;
+    justify-content: center;
+    height: 100%;
+}
+
+#cursos .page{
+    width: 90%;
+    margin-top: 7em;
+    
+}
+
+#cursos #cabecalho_cursos_ext, #cursos #bloco_cursos_ext{
+    margin-left: 50px;
+    padding: 0px 20px 30px 0px;
+}
+
+#cursos #cabecalho_cursos_int{
+    padding: 15px;
+}
+
+#cursos #cabecalho_cursos_int a{
+    text-decoration: none;
+    color: black;
+}
+
+#cursos #cabecalho_cursos_int h2{
+    font-size: 55px;
+    color: #9E0303;
+}
+
+#cursos #cabecalho_cursos_int ul{
+    display: flex;
+    margin: 15px 0;
+}
+
+#cursos #cabecalho_cursos_int li{
+    list-style: none;
+    padding: 0 7px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+#cursos #cabecalho_cursos_int li #atual{
+    color: #9E0303;
+}
+
+#cursos #cabecalho_cursos_int h3{
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+#espacamento{
+    height: 2em;
+}
+
+#cursos #bloco_cursos_ext{
+    padding-bottom: 60px;
+}
+
+#cursos #bloco_cursos_int{
+    display: block;
+    padding: 50px;
+}
+
+#cursos .linha_cursos{
+    justify-content: center;
+    display: flex;
+}
+
+#cursos .curso{
+    width: 20%;
+    padding: 20px;
+}
+
+#cursos .curso .img_anuncio{
+    width: 20px;
+}
+
+#cursos .curso img{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+}
+
+#cursos .curso h4{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#cursos .curso p{
+    text-indent: 1.5em;
+    margin-top: 8px;
+}
+
+#cursos .curso{
+    background-color: white;
+    margin: 15px;
+    justify-items: center;
+}
+
+#cursos .curso #bot_comecar{
+    width: 100%;
+    height: 2em;
+    margin: 20px;
+}
+
+#cursos .curso a{
+    text-decoration: none;
+    margin: 100px;
+    border: #2c59ec solid 2px;
+}
