@@ -8,6 +8,7 @@
 #inicio .page{
     padding: 0 25px;
     margin-top: 12em;
+    
 }
 
 #inicio .page li{
@@ -94,8 +95,17 @@
     width: 100%;
 }
 
+#inicio #text-footer li{
+    width: 25%;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
 #inicio #text-footer p{
     font-size: 18px;
+    text-indent: 1.5em;
+    height: 100%;
+    margin: auto;
 }
 
 
@@ -104,11 +114,13 @@
 #cursos{
     background-color: #cecece;
     justify-content: center;
+    height: 100%;
 }
 
 #cursos .page{
     width: 90%;
     margin-top: 7em;
+    
 }
 
 #cursos #cabecalho_cursos_ext, #cursos #bloco_cursos_ext{
@@ -128,12 +140,11 @@
 #cursos #cabecalho_cursos_int h2{
     font-size: 55px;
     color: #9E0303;
-
 }
 
 #cursos #cabecalho_cursos_int ul{
     display: flex;
-    margin: 15px auto;
+    margin: 15px 0;
 }
 
 #cursos #cabecalho_cursos_int li{
@@ -146,4 +157,70 @@
 
 #cursos #cabecalho_cursos_int li #atual{
     color: #9E0303;
+}
+
+#cursos #cabecalho_cursos_int h3{
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+#espacamento{
+    height: 2em;
+}
+
+#cursos #bloco_cursos_ext{
+    padding-bottom: 60px;
+}
+
+#cursos #bloco_cursos_int{
+    display: block;
+    padding: 50px;
+}
+
+#cursos .linha_cursos{
+    justify-content: center;
+    display: flex;
+}
+
+#cursos .curso{
+    width: 20%;
+    padding: 20px;
+}
+
+#cursos .curso .img_anuncio{
+    width: 20px;
+}
+
+#cursos .curso img{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+}
+
+#cursos .curso h4{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#cursos .curso p{
+    text-indent: 1.5em;
+    margin-top: 8px;
+}
+
+#cursos .curso{
+    background-color: white;
+    margin: 15px;
+    justify-items: center;
+}
+
+#cursos .curso #bot_comecar{
+    width: 100%;
+    height: 2em;
+    margin: 20px;
+}
+
+#cursos .curso a{
+    text-decoration: none;
+    margin: 100px;
+    border: #2c59ec solid 2px;
 }
