@@ -77,8 +77,6 @@ header #detalhe_linha{
 
 /*SECTION*/
 section{
-    width: 99.14vw;
-    height: 100vh;
     display: flex;
 }
 
