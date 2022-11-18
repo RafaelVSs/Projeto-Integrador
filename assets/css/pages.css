@@ -8,21 +8,12 @@
 }
 
 #inicio .page{
-    padding: 20px;
     height: 90%;
-    word-break: break-word;
     justify-items: center;
-    justify-content: space-evenly;
-    
 }
 
 #inicio #espacamento{
-    height: 10em;
-}
-
-#inicio .page li{
-    list-style: none;
-    margin-top: 2em;
+    height: 3em;
 }
 
 #inicio .conteudo{
@@ -39,9 +30,10 @@
 }
 
 #inicio #titulo h3{
-    font-size: 70px;
-    padding: 20px 0 0 0;
+    font-size: 60px;
+    padding-left: 20px;
     text-align: center;
+    align-items: center;
 }
 
 #inicio #bot_comecar{
@@ -72,11 +64,13 @@
 
 #inicio #img_inicial{
     width: 50%;
+
 }
 
 #inicio #img_inicial img{
     width: 50%;
     margin-left: 10em;
+    margin-top: 5em;
 }
 
 #inicio #text_inicio{
@@ -88,12 +82,13 @@
     width: 100%;
     display: flex;
     padding: 0;
-
+    
 }
 
 #inicio #text_inicio li{
     width: 25%;
     word-break: break-word;
+    list-style: none;
 }
 
 #inicio #text_inicio p{
@@ -111,17 +106,13 @@
     height: 100%;
 }
 
-#cursos .page{
-    width: 95%;
-    margin-top: 5em;
+.page{
+    width: 100%;
+    margin-top: 6em;
 }
 
-#cursos #cabecalho_cursos_ext, #cursos #bloco_cursos_ext{
-    padding: 30px;
-}
-
-#cursos #cabecalho_cursos_int, #cursos #bloco_cursos_int{
-    padding: 15px;
+#bloco_cursos_int{
+    margin: 15px;
 }
 
 #cursos #cabecalho_cursos_int a{
@@ -147,30 +138,12 @@
     
 }
 
-#cursos #cabecalho_cursos_int li #atual{
-    color: #9E0303;
-}
-
-#cursos #cabecalho_cursos_int h3{
-    font-size: 18px;
-    margin-top: 35px;
-}
-
 #espacamento{
     height: 1em;
 }
 
-#cursos #bloco_cursos_ext{
-    padding-bottom: 60px;
-}
-
-#cursos #bloco_cursos_int, #cursos #cabecalho_cursos_int{
-    display: block;
-    padding: 50px;
-}
-
 #cursos .linha_cursos{
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
 }
 
@@ -199,7 +172,7 @@
 
 #cursos .curso p{
     text-indent: 1.5em;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 #cursos .curso{
