@@ -1,0 +1,88 @@
+/*INICIO*/
+#inicio{
+    background: #2b0606;
+    color: white;    
+}
+
+#inicio .page{
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+#inicio #titulo{
+    display: flex;
+}
+
+#inicio #titulo h1{
+    font-size: 560%;
+}
+
+#inicio #titulo h3{
+    font-size: 70px;
+    margin-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#inicio #bot_comecar{
+    color: #ffffff;
+    margin-top: 130px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+#inicio #bot_comecar a{
+    text-decoration: none;
+    color: #ffffff;
+    border: white solid 2px;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+#inicio #bot_comecar a:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color: #9E0303;
+    border-radius: 1em;
+}
+
+#inicio #img_inicial{
+    width: 50%;
+    
+}
+
+#inicio #img_inicial img{
+    width: 70%;
+    margin-left: 8em;
+    display: flex;
+
+}
+
+#inicio #text_inicio{
+    padding-top: 60px;
+    text-align: center;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+#inicio #text_inicio ul{
+    display: flex;
+    max-width: 1700px;
+}
+
+#inicio #text_inicio li{
+    width: 25%;
+    list-style: none;
+    
+}
+
+#inicio #text_inicio p{
+    font-size: 18px;
+    text-indent: 1.5em;
+}

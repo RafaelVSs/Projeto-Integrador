@@ -19,7 +19,6 @@ header nav{
     font-size: 16px;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 header #logo{
@@ -72,6 +71,7 @@ header #detalhe_linha{
 /*SECTION*/
 section{
     display: flex;
+    justify-content: center;
 }
 
 .page{
