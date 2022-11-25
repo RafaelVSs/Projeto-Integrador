@@ -16,11 +16,11 @@
 }
 
 #inicio #titulo h1{
-    font-size: 560%;
+    font-size: 410%;
 }
 
 #inicio #titulo h3{
-    font-size: 70px;
+    font-size: 410%;
     margin-top: 30px;
     padding-left: 20px;
     text-align: center;
@@ -28,7 +28,7 @@
 
 #inicio #bot_comecar{
     color: #ffffff;
-    margin-top: 130px;
+    margin-top: 90px;
     text-align: center;
     padding: 10px;
     font-size: 30px;
@@ -53,7 +53,6 @@
 
 #inicio #img_inicial{
     width: 50%;
-    
 }
 
 #inicio #img_inicial img{
@@ -74,15 +73,116 @@
 #inicio #text_inicio ul{
     display: flex;
     max-width: 1700px;
+    flex-wrap: wrap;
 }
 
 #inicio #text_inicio li{
     width: 25%;
     list-style: none;
-    
+    flex-wrap: wrap;
 }
 
 #inicio #text_inicio p{
     font-size: 18px;
     text-indent: 1.5em;
+    flex-wrap: wrap;
 }
+
+
+@media screen and (max-width: 1600px) {
+    #inicio #titulo h1{
+        font-size: 350%;
+    }
+
+    #inicio #titulo h3{
+        font-size: 330%;
+    }
+
+    #inicio #bot_comecar{
+        margin-top: 70px;
+        font-size: 27px;
+    }
+
+    #inicio #text_inicio p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #inicio #titulo h1{
+        font-size: 350%;
+        text-align: center;
+    }
+
+    #inicio #titulo h3{
+        font-size: 330%;
+    }
+
+    #inicio #bot_comecar{
+        margin-top: 70px;
+        font-size: 25px;
+    }
+
+    #inicio #img_inicial{
+        width: auto;
+    }
+    
+    #inicio #img_inicial img{
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+
+    #inicio #titulo{
+        display: block;
+    }
+    
+    #inicio #text_inicio li{
+        width: 25%;
+        max-width: 1200px;
+    }
+    
+    #inicio #text_inicio p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #inicio #titulo h1{
+        font-size: 300%;
+        text-align: center;
+    }
+
+    #inicio #titulo h3{
+        font-size: 250%;
+    }
+
+    #inicio #bot_comecar{
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    #inicio #img_inicial{
+        width: auto;
+    }
+    
+    #inicio #img_inicial img{
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+
+    #inicio #titulo{
+        display: block;
+    }
+
+    #inicio #text_inicio p{
+        font-size: 10px;
+    }
+
+    #inicio #text_inicio ul{
+        
+        flex-wrap: wrap;
+    }
+}
+
