@@ -12,6 +12,12 @@ header{
     position: fixed;
 }
 
+#inicio #logo{
+    width: 150%;
+    justify-content: center;
+    text-align: center;
+}
+
 header nav{
     display: flex;
     background-color: #CECECE;
@@ -85,4 +91,17 @@ footer{
     width: 100%;
     background-color: #CECECE;
     height: 7em;
+}
+
+
+@media screen and (max-width: 850px) and (min-width: 801px) {
+    *{
+        max-width: 98vw;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 385px){
+    *{
+        max-width: 100%;
+    }
 }

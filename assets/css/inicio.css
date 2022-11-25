@@ -181,8 +181,6 @@
     }
 
     #inicio #text_inicio ul{
-        
         flex-wrap: wrap;
     }
 }
-
