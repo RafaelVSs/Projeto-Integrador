@@ -1,0 +1,18 @@
+#calendario #cabecalho_calendario h2{
+    font-size: 50px;
+    color: #9E0303;
+}
+
+#calendario #cabecalho_calendario h3{
+    margin-top: 25px;
+}
+
+#calendario .page{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#calendario .conteudo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
