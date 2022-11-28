@@ -2,7 +2,14 @@
 #contato{
     background-image: url(../img/Contatos.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    height: 100vh;
+    height: 70vh;
+}
+
+#contato .page{
+    margin: auto;
+}
+
+#contato #conteudo{
+    background-color: rgb(255, 255, 255);
+    
 }
