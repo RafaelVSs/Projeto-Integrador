@@ -117,11 +117,11 @@ footer #detalhe_linha{
 
 @media screen and (max-width: 850px) and (min-width: 801px) {
     *{
-        max-width: 98vw;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 800px) and (min-width: 385px){
+@media screen and (max-width: 800px) and (min-width: 386px){
     *{
         max-width: 100%;
     }

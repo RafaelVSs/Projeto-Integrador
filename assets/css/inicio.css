@@ -8,7 +8,6 @@
     padding-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    
 }
 
 #inicio #titulo{
@@ -23,19 +22,18 @@
 
 #inicio #titulo h3{
     font-size: 55px;
-    margin-top: 30px;
-    padding-left: 20px;
+    margin-top: 3%;
     text-align: center;
 }
 
 #inicio #bot_comecar{
-    color: #ffffff;
-    margin-top: 90px;
-    text-align: center;
-    padding: 10px;
     font-size: 30px;
-    font-weight: bold;
+    margin-top: 15%;
+    padding: 1%;
+    color: #ffffff;
     border-radius: 1em;
+    text-align: center;
+    font-weight: bold;
 }
 
 #inicio #bot_comecar a{
@@ -65,16 +63,16 @@
 }
 
 #inicio #text_inicio{
-    padding-top: 60px;
-    text-align: center;
-    margin: 16px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    margin: 0.8%;
 }
 
 #inicio #text_inicio ul{
     display: flex;
-    max-width: 1700px;
+    max-width: 90%;
     flex-wrap: wrap;
 }
 
@@ -90,156 +88,124 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 1921px) {
-    #inicio #titulo h1{
-        font-size: 90px;
-    }
-
-    #inicio #titulo h3{
-        font-size: 80px;
-    }
-
-    #inicio #text_inicio p{
-        font-size: 26px;
-    }
-}
-
 @media screen and (max-width: 1700px) {
     #inicio #titulo h1{
         font-size: 60px;
     }
-
+    
     #inicio #titulo h3{
         font-size: 50px;
     }
-
+    
     #inicio #bot_comecar{
-        margin-top: 70px;
-        font-size: 27px;
+        font-size: 25px;
     }
 
     #inicio #text_inicio p{
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 1450px) {
     #inicio #titulo h1{
         font-size: 55px;
-   }
-
-   #inicio #titulo h3{
-    font-size: 45px;
-    }
-
-    #inicio #bot_comecar{
-        margin-top: 50px;
-        font-size: 24px;
     }
     
+    #inicio #titulo h3{
+        font-size: 45px;
+    }
+    
+    #inicio #bot_comecar{
+        font-size: 22px;
+    }
+
     #inicio #text_inicio p{
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    #inicio #titulo h1{
-        font-size: 50px;
-        text-align: center;
-    }
-
-    #inicio #titulo h3{
-        font-size: 40px;
-    }
-
-    #inicio #bot_comecar{
-        margin-top: 70px;
-        font-size: 25px;
-    }
-
-    #inicio #img_inicial{
-        width: auto;
-    }
-    
-    #inicio #img_inicial img{
-        width: 35%;
-        display: flex;
-        margin: auto;
-    }
-
     #inicio #titulo{
         display: block;
     }
     
-    #inicio #text_inicio li{
-        width: 25%;
-        max-width: 1200px;
+    #inicio #titulo h1{
+        font-size: 50px;
     }
     
+    #inicio #titulo h3{
+        font-size: 40px;
+    }
+    
+    #inicio #bot_comecar{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    #inicio #img_inicial{
+        width: 100%;
+    }
+    
+    #inicio #img_inicial img{
+        width: 40%;
+        margin: auto;
+    }
+
     #inicio #text_inicio p{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 @media screen and (max-width: 900px) {
     #inicio #titulo h1{
         font-size: 45px;
-        text-align: center;
     }
-
+    
     #inicio #titulo h3{
         font-size: 35px;
     }
+    
+    #inicio #bot_comecar{
+        font-size: 18px;
+    }
 
     #inicio #text_inicio p{
-        font-size: 12px;
+        font-size: 9px;
     }
 }
 
 @media screen and (max-width: 600px) {
     #inicio #titulo h1{
         font-size: 40px;
-        text-align: center;
     }
-
+    
     #inicio #titulo h3{
         font-size: 30px;
     }
-
-    #inicio #bot_comecar{
-        margin-top: 70px;
-        font-size: 20px;
-    }
-
-    #inicio #img_inicial{
-        width: auto;
-    }
     
-    #inicio #img_inicial img{
-        width: 50%;
-        display: flex;
-        margin: auto;
-    }
-
-    #inicio #titulo{
-        display: block;
+    #inicio #bot_comecar{
+        font-size: 16px;
     }
 
     #inicio #text_inicio p{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
 @media screen and (max-width: 510px) {
     #inicio #titulo h1{
-        font-size: 27px;
+        font-size: 35px;
     }
-
+    
     #inicio #titulo h3{
         font-size: 25px;
     }
+    
+    #inicio #bot_comecar{
+        font-size: 14px;
+    }
 
     #inicio #text_inicio p{
-        font-size: 10px;
+        font-size: 7px;
     }
 }

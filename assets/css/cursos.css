@@ -8,264 +8,234 @@
     margin-right: 50px;
 }
 
-#cursos #cabecalho_cursos a{
-    text-decoration: none;
-    color: black;
-}
-
-#cursos #cabecalho_cursos h2{
-    font-size: 50px;
+#cursos h2{
+    font-size: 55px;
+    margin-left: 10%;
+    width: 70%;
     color: #9E0303;
 }
 
-#cursos #cabecalho_cursos h3{
-    margin-top: 25px;
+#cursos h3{
+    font-size: 20px;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    width: 70%;
 }
 
 #cursos #bloco_cursos{
-    margin: 100px;
+    margin: 5%;
 }
 
 #cursos .linha_cursos{
-    justify-content: center;
+    max-width: 75%;
     display: flex;
+    justify-content: center;
+    margin: auto;
     flex-wrap: wrap;
-    max-width: 1300px;
 }
 
 #cursos .curso{
-    word-break: break-word;
-    max-width: 400px;
+    max-width: 25%;
+    margin: 0.8%;
+    padding: 5px;
     background-color: white;
-    margin: 10px;
+    box-shadow: 4px 3px 2px rgb(136, 136, 136);
     border-radius: 7px;
+    word-break: break-word;
 }
 
 #cursos .curso:hover{
+    transition: 0.3s;
+    box-shadow: 7px 7px 5px rgb(136, 136, 136);   
     border: #9E0303 solid 1px;
-    padding: 1px;
 }
 
 #cursos .img_curso{
-    width: 60%;
+    width: 75%;
+    margin: 10px auto;
 }
 
-#cursos .curso img{
-    width: 90%;
-    max-width: 300px;
-    margin-top: 15px;
-    padding: 15px 5px 0px 5px;
-    align-content: center;
+#cursos img{
+    max-width: 100%;
 }
 
 #cursos #borda_divisao{
-    margin-top: 10px;
+    margin: 10px 20px;
     border: #cecece solid 1px;
     background-color: #cecece;
 }
 
 #cursos #descricao_curso{
-    width: 50%;
-    margin-left: 15px;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 20px;
+}
+
+#cursos h4{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cursos p{
+    font-size: 17px;
     margin-top: 10px;
-    padding: 15px 10px 0px 10px;
+    text-indent: 1em;
     flex-wrap: wrap;
 }
 
-#cursos .curso h4{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#cursos .curso p{
-    text-indent: 0.5em;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-#cursos .curso .botao{
+#cursos .botao{
+    margin: 10%;
     text-align: center;
-    margin: 40px;
     word-break: normal;
 }
 
-#cursos .curso .bot_comecar{
+#cursos .bot_comecar{
+    font-size: 17px;
     text-decoration: none;
     color: white;
     background-color: #ff8080;
     border: #ff0000 solid 1px;
     border-radius: 5px;
-    padding: 5px 40px;
+    padding: 2% 20%;
 }
 
-#cursos .curso .bot_comecar:hover{
+#cursos .bot_comecar:hover{
     background-color: #fa5e5e;
 }
 
-@media screen and (min-width: 1921px) {
-
-}
-
 @media screen and (max-width: 1700px) {
-    #cursos #cabecalho_cursos h2{
-        font-size: 45px;
+    #cursos h2{
+        font-size: 50px;
     }
     
-    #cursos #cabecalho_cursos h3{
-        margin-top: 22px;
+    #cursos h3{
+        font-size: 18px;
+    }
+
+    #cursos h4{
+        font-size: 20px;
     }
     
-    #cursos .curso{
-        min-width: 220px;
-        max-width: 320px;
+    #cursos p{
+        font-size: 16px;
     }
     
-    #cursos .curso img{
-        max-width: 280px;
-        margin-top: 14px;
-    }
-    
-    #cursos .curso h4{
-        font-size: 19px;
-    }
-    
-    #cursos .curso p{
-        margin-top: 9px;
-        font-size: 15px;
-    }
-    
-    #cursos .curso .botao{
-        margin: 38px;
-    }
-    
-    #cursos .curso .bot_comecar{
-        padding: 5px 38px;
+    #cursos .bot_comecar{
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 1450px) {
-    #cursos #cabecalho_cursos h2{
-        font-size: 40px;
+    #cursos h2{
+        font-size: 45px;
     }
     
-    #cursos #cabecalho_cursos h3{
-        margin-top: 19px;
+    #cursos h3{
+        font-size: 17px;
     }
-    
-    #cursos .curso{
-        min-width: 190px;
-        max-width: 290px;
-    }
-    
-    #cursos .curso img{
-        max-width: 260px;
-        margin-top: 13px;
-    }
-    
-    #cursos .curso h4{
+
+    #cursos h4{
         font-size: 18px;
     }
     
-    #cursos .curso p{
-        margin-top: 8px;
-        font-size: 14px;
+    #cursos p{
+        font-size: 15px;
     }
     
-    #cursos .curso .botao{
-        margin: 36px;
-    }
-    
-    #cursos .curso .bot_comecar{
-        padding: 5px 36px;
+    #cursos .bot_comecar{
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    #cursos #cabecalho_cursos h2{
-        font-size: 35px;
+    #cursos h2{
+        font-size: 40px;
     }
     
-    #cursos #cabecalho_cursos h3{
-        margin-top: 16px;
+    #cursos h3{
+        font-size: 15px;
     }
 
-    #cursos .linha_cursos{
-        max-width: 800px;
+    #cursos h4{
+        font-size: 16px;
+        text-align: left;
     }
     
-    #cursos .curso{
-        min-width: 160px;
-        max-width: 260px;
+    #cursos p{
+        font-size: 14px;
     }
     
-    #cursos .curso img{
-        max-width: 230px;
-        margin-top: 12px;
-    }
-    
-    #cursos .curso h4{
-        font-size: 17px;
-    }
-    
-    #cursos .curso p{
-        margin-top: 7px;
-        font-size: 13px;
-    }
-    
-    #cursos .curso .botao{
-        margin: 34px;
-    }
-    
-    #cursos .curso .bot_comecar{
-        padding: 5px 34px;
+    #cursos .bot_comecar{
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    #cursos #cabecalho_cursos h2{
-        font-size: 30px;
+    #cursos h2{
+        font-size: 35px;
     }
     
-    #cursos #cabecalho_cursos h3{
-        margin-top: 13px;
+    #cursos h3{
+        font-size: 13px;
     }
 
-    #cursos .linha_cursos{
-        max-width: 550px;
+    #cursos h4{
+        font-size: 13px;
+        text-align: left;
     }
     
-    #cursos .curso{
-        min-width: 130px;
-        max-width: 260px;
+    #cursos p{
+        font-size: 10px;
     }
     
-    #cursos .curso img{
-        max-width: 200px;
-        margin-top: 10px;
-    }
-    
-    #cursos .curso h4{
-        font-size: 16px;
-    }
-    
-    #cursos .curso p{
-        margin-top: 6px;
-        font-size: 12px;
-    }
-    
-    #cursos .curso .botao{
-        margin: 32px;
-    }
-    
-    #cursos .curso .bot_comecar{
-        padding: 5px 32px;
+    #cursos .bot_comecar{
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    #cursos h2{
+        font-size: 30px;
+    }
+    
+    #cursos h3{
+        font-size: 11px;
+    }
 
+    #cursos h4{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    #cursos p{
+        font-size: 8px;
+    }
+    
+    #cursos .bot_comecar{
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width: 510px) {
+    #cursos h2{
+        font-size: 30px;
+    }
+    
+    #cursos h3{
+        font-size: 11px;
+    }
 
+    #cursos h4{
+        font-size: 8px;
+        text-align: left;
+    }
+    
+    #cursos p{
+        font-size: 6px;
+    }
+    
+    #cursos .bot_comecar{
+        font-size: 6px;
+    }
 }
