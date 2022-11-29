@@ -10,6 +10,27 @@
 }
 
 #contato #conteudo{
-    background-color: rgb(255, 255, 255);
-    
+    background-color: #cecece;
+    opacity: 0.85;
+    max-width: 60%;
+    justify-items: center;
+}
+
+#contato h2{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#contato #links{
+    display: flex;
+    margin: auto;
+}
+
+#contato #end{
+    align-items: center;
+}
+
+#contato img{
+    width: 3.5%;
+    max-width: 1000px;
 }
