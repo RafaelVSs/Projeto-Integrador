@@ -80,3 +80,111 @@
     font-size: 19px;
     color: #9E0303;
 }
+
+@media screen and (max-width: 1700px) {
+    #contato h2{
+        font-size: 32px;
+    }
+
+    #contato #links{
+        font-size: 16px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 15px;
+    }
+    
+    #contato span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #contato h2{
+        font-size: 30px;
+    }
+
+    #contato #links{
+        font-size: 15px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 14px;
+    }
+    
+    #contato span{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #contato h2{
+        font-size: 28px;
+    }
+
+    #contato #links{
+        font-size: 14px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 13px;
+    }
+    
+    #contato span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #contato h2{
+        font-size: 26px;
+    }
+
+    #contato #links{
+        font-size: 13px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 12px;
+    }
+    
+    #contato span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contato h2{
+        font-size: 24px;
+    }
+
+    #contato #links{
+        font-size: 11px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 11px;
+    }
+    
+    #contato span{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #contato h2{
+        font-size: 22px;
+    }
+
+    #contato #links{
+        font-size: 10px;
+    }
+
+    #contato #nome_fantasia, #contato #cnpj{
+        font-size: 10px;
+    }
+    
+    #contato span{
+        font-size: 13px;
+    }
+}
