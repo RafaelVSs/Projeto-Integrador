@@ -4,7 +4,6 @@
 }
 
 
-
 /*HEADER*/
 header{
     width: 100vw;
@@ -27,6 +26,12 @@ header{
     size: ;
     margin-left: 100px;
     margin-right: 250px;
+}
+
+head #detalhe_linha_logo{
+    width: 100%;
+    background-image: linear-gradient(90deg, #9E0303, #F2B138);
+    border-radius: 8px 8px;
 }
 
 #logo_text2{
@@ -88,7 +93,8 @@ header #bot_cadastro a:hover{
 
 header #detalhe_linha{
     height: 0.5em;
-    background-color: #9E0303;
+    background-image: linear-gradient(90deg, #9E0303, #F2B138, #9E0303);
+    border-radius: 0px 0px 8px 8px;
 }
 
 
@@ -109,7 +115,9 @@ section{
 footer{
     width: 100%;
     background-color: #CECECE;
-    height: 4em;
+    height: 6em;
+    font-style: italic;
+    background-image: linear-gradient(180deg, #CECECE, #9e03036e);
 }
 
 footer #detalhe_linha{
@@ -119,17 +127,18 @@ footer #detalhe_linha{
 
 .footerrodape{
     color: #000000;
-    margin: 10px 250px 10px 250px;
+    font-family: 'Kite One', sans-serif;
+    margin: 15px 100px 0px 100px;
 }
 
 .rodape1{
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .rodape2{
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
