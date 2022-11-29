@@ -1,8 +1,8 @@
 /*CONTATO*/
 #contato{
-    background-image: url(../img/Contatos.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    height: 100vh;
+        height: 100vh;
+}
+
+.conteudo{
+    display: inline-block;
 }
