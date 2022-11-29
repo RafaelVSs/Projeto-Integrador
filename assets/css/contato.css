@@ -2,7 +2,8 @@
 #contato{
     background-image: url(../img/Contatos.png);
     background-size: contain;
-    height: 70vh;
+    background-repeat: round;
+    height: 100vh;
 }
 
 #contato .page{
@@ -10,27 +11,72 @@
 }
 
 #contato #conteudo{
-    background-color: #cecece;
-    opacity: 0.85;
-    max-width: 60%;
-    justify-items: center;
+    background-color: #bebebe;
+    width: 85%;
+    margin: auto;
+    padding: 1.5%;
+    border-radius: 25px;
+    box-shadow: 6px 4px 2px rgb(104, 104, 104);
 }
 
 #contato h2{
     text-align: center;
-    margin-bottom: 10%;
+    padding: 2.5% 0% 6% 0%;
+    font-size: 34px;
+    color: #9E0303;
 }
 
 #contato #links{
-    display: flex;
-    margin: auto;
+    display: block;
+    font-size: 17px;
 }
 
-#contato #end{
+#contato a{
+    text-decoration: none;
+    color: black;
     align-items: center;
 }
 
-#contato img{
-    width: 3.5%;
-    max-width: 1000px;
+#contato a img{
+    margin-right: 2.5%;
+}
+
+#contato #end img, #contato #email img, #contato #tel img{
+    width: 7%;
+}
+
+#contato #end, #contato #email, #contato #tel{
+    display: flex;
+    background-color: white;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 4px 3px 2px rgb(136, 136, 136);
+}
+
+#contato #end:hover, #contato #email:hover, #contato #tel:hover{
+    transition: 0.3s;
+    margin: 1.85%;
+    box-shadow: 6px 5px 3px rgb(136, 136, 136);
+}
+
+#contato #dados{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5%;
+    padding: 2%;
+}
+
+#contato #nome_fantasia, #contato #cnpj{
+    background-color: white;
+    padding: 1.2%;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 4px 3px 2px rgb(136, 136, 136);
+}
+
+#contato span{
+    font-weight: bold;
+    font-size: 19px;
+    color: #9E0303;
 }
