@@ -1,12 +1,5 @@
 /*CONTATO*/
 #contato{
-<<<<<<< HEAD
-        height: 100vh;
-}
-
-.conteudo{
-    display: inline-block;
-=======
     background-image: url(../img/Contatos.png);
     background-size: contain;
     background-repeat: round;
@@ -194,5 +187,4 @@
     #contato span{
         font-size: 13px;
     }
->>>>>>> a972c69ac10409331ebef054f38c195c23e74475
 }
