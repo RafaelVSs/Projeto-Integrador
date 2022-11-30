@@ -1,38 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="../assets/css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <link rel="stylesheet" href="../assets/css/cadastro.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-          <div id="logo">
-            <a href="../index.html#inicio"><img src ="../assets/img/DALL·E Boy reading an open book logo.svg" alt="logo"></a>
-            <a href="../index.html#inicio">Empresa</a>
-        </div>
-          <div id="navegacao">
-            <ul>
-              <li><a href="../index.html#inicio">Início</a></li>
-              <li><a href="../index.html#cursos">Cursos</a></li>
-              <li><a href="../index.html#calendario">Calendário</a></li>
-              <li><a href="../index.html#disciplinas">Disciplinas</a></li>
-              <li><a href="../index.html#contato">Contato</a></li>
-              <li>|</li> 
-              <li id="bot_cadastro"><a href="cadastro.html">Cadastro</a></li>
-            </ul>
+  <header>
+    <nav>
+      <div id="logo">
+        <a href="../index.html#inicio"><img src="../assets/img/DALL·E Boy reading an open book logo.svg" alt="logo"></a>
+        <a href="../index.html#inicio">Empresa</a>
+      </div>
+      <div id="navegacao">
+        <ul>
+          <li><a href="../index.html#inicio">Início</a></li>
+          <li><a href="../index.html#cursos">Cursos</a></li>
+          <li><a href="../index.html#calendario">Calendário</a></li>
+          <li><a href="../index.html#disciplinas">Disciplinas</a></li>
+          <li><a href="../index.html#contato">Contato</a></li>
+      </div>
+    </nav>
+    <div id="detalhe_linha"></div>
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <main>
+    <section>
+      <div id="login">
+        <h1>LOGIN</h1>
+      </div>
+      <div>
+        <form action="obrigado.html">
+
+          <div>
+            <label for="crtl_name">Nome: </label>
+            <input id="crtl_name" class="input_forms" type="text" placeholder="Digite seu nome">
           </div>
-        </nav>
-        <div id="detalhe_linha"></div>
-    </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>Página de Cadastro</h1>
+          <br>
+          <div>
+            <label for="crtl_email">Email: </label>
+            <input id="crtl_email" class="input_forms" type="email" placeholder="Digite seu email">
+          </div>
+          <br>
+          <div>
+            <label for="crtl_email">Senha: </label>
+            <input id="crtl_password" class="input_forms" type="password" placeholder="Digite sua senha">
+          </div>
+          <br>
+          
+          <div>
+            <label for="crtl_level">Escolaridade: </label>
+            <div id="crtl_level">
+              <input id="crtl_level_1" name="level" type="radio">
+              <label for="crtl_level_1">Fundameltal</label>
+              <input id="crtl_level_2" name="level" type="radio">
+              <label for="crtl_level_2">Médio</label>
+              <input id="crtl_level_3" name="level" type="radio">
+              <label for="crtl_level_3">Superior</label>
+            </div>
+            <br>
+            <div>
+              <label for="crtl_course">Escolha os cursos de sua preferência: </label>
+              <div id="crtl_course">
+  
+                <div>
+                  <input id="crtl_course_1" type="checkbox">
+                  <label for="crtl_course_1">ADS (Análise e Desenvolvimento de Sistemas)</label>
+                </div>
+                <div>
+                  <input id="crtl_course_2" type="checkbox">
+                  <label for="crtl_course_2">DSM (Desenvolvimento de Software em Multiplataforma)</label>
+                </div>
+                <div>
+                  <input id="crtl_course_3" type="checkbox">
+                  <label for="crtl_course_3">GPI (Gestão de produção industrial)</label>
+                </div>
+                <div>
+                  <input id="crtl_course_4" type="checkbox">
+                  <label for="crtl_course_4">GRH (Gestão de Recursos Humanos)</label>
+                </div>
+                <div>
+                  <input id="crtl_course_5" type="checkbox">
+                  <label for="crtl_course_5">GE (Gestão Empresarial) - EAD</label>
+                </div>
+                <br>
+                <br>
+              
+              </div>
+              <input type="submit" value="Enviar">
+        </form>
+
+      </div>
+      
+    </section>
+
+  </main>
+
 </body>
+
 </html>
