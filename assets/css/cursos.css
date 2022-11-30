@@ -47,7 +47,7 @@
 #cursos .curso:hover{
     transition: 0.3s;
     box-shadow: 7px 7px 5px rgb(136, 136, 136);   
-    border: #9E0303 solid 1px;
+    border: #9E0303 solid 2px;
 }
 
 #cursos .img_curso{
