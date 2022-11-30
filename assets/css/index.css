@@ -96,6 +96,26 @@ header #detalhe_linha{
     border-radius: 0px 0px 8px 8px;
 }
 
+header #detalhe_linha_sup{
+    background-color: #9E0303;
+    height: 2em;
+    background-image: #9E0303;
+}
+
+header #nav_aulas_cursinho{
+    
+}
+
+header #nav_aulas_cursinho ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+header #nav_aulas_cursinho li{
+    padding: 0px 20%;
+}
+
 
 
 /*SECTION*/

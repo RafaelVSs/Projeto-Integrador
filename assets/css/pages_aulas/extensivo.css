@@ -1,5 +1,10 @@
 #extensivo{
-    
+    justify-content: center;
+}
+
+#extensivo .page{
+    margin-top: 10.5em;
+    width: 90%;
 }
 
 #extensivo h2{
@@ -7,4 +12,38 @@
     margin-left: 10%;
     width: 70%;
     color: #9E0303;
+}
+
+#extensivo #bloco_aulas{
+    margin: 5%;
+}
+
+#extensivo .linha_aulas{
+    max-width: 75%;
+    display: flex;
+
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#extensivo .aula{
+    padding: 1%;
+    max-width: 45%;
+    margin: 1%;
+}
+
+#extensivo .aula .img_aula{
+    justify-content: space-between;
+}
+
+#extensivo .aula img{
+    justify-content: right;
+    max-width: 85%;
+}
+
+#extensivo .aula h3{
+    margin-top: 0.7%;
+    padding-left: 5%;
+    font-size: 22px;
 }
