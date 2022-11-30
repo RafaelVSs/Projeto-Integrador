@@ -1,6 +1,7 @@
 /*CONTATO*/
 #contato{
-    background-image: url(../img/Contatos.png);
+    background-image: url();
+    background-color: #2b0606;
     background-size: contain;
     background-repeat: round;
     height: 100vh;

@@ -22,7 +22,7 @@ header #logo{
 #logo_img a img{
     width:90px;
     height: 90px;
-    margin: 0px 20px 0px 20px;
+    margin-right: 15px;
     align-content: center;
 }
 
@@ -38,16 +38,18 @@ header #logo{
 #logo_text2{
     text-align: right;
     font-size: 9px;
+    position: relative;
+    top: -9px;
 }
 
 header nav{
     display: flex;
     background-color: #CECECE;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 7rem;
+    padding: 5px 7rem 1px 7rem;
 }
 
 header #navegacao ul{
@@ -87,7 +89,7 @@ header #bot_cadastro a:hover{
 }
 
 header #detalhe_linha{
-    height: 0.5em;
+    height: 0.4em;
     background-image: linear-gradient(100deg, #9E0303, #F2B138, #9E0303);
     border-radius: 0px 0px 8px 8px;
     box-shadow: 2px 3px 2px #0000008c;
@@ -135,7 +137,7 @@ footer{
     width: 100%;
     background-color: #CECECE;
     height: 6em;
-    background-image: linear-gradient(180deg, #CECECE, #9e030331, #f2b13811);
+    background-image: linear-gradient(180deg, #CECECE, #2b060627, #f2b13811);
 }
 
 footer #detalhe_linha{
