@@ -1,3 +1,90 @@
+header{
+    width: 100vw;
+    z-index: 1;
+    position: fixed;
+}
+
+header #logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo_img a img{
+    width:90px;
+    height: 90px;
+    margin: 0px 20px 0px 20px;
+    align-content: center;
+}
+
+#textlogo{
+    align-items: center;
+}
+
+#logo_text{
+    font-size: 25px;
+    text-align: left;
+}
+
+#logo_text2{
+    text-align: right;
+    font-size: 9px;
+}
+
+header nav{
+    display: flex;
+    background-color: #CECECE;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+header #navegacao ul{
+    display: flex;
+    align-items: center;
+}
+
+header #navegacao li{
+    list-style: none;
+    margin: 0 25px 0 0;
+    display: flex;
+}
+
+header #navegacao a:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #9E0303;
+    border-radius: 1em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+header #bot_cadastro{
+    background-color: #ffffff;
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header #bot_cadastro a:hover{
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+header #detalhe_linha{
+    height: 0.5em;
+    background-image: linear-gradient(100deg, #9E0303, #F2B138, #9E0303);
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 3px 2px #0000008c;
+}
+
+
+
 #crtl_course{
     display: block;
 }
