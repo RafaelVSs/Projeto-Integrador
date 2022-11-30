@@ -64,7 +64,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 1.5%;
-    padding: 2%;
 }
 
 #contato #nome_fantasia, #contato #cnpj{
@@ -163,7 +162,7 @@
     }
 
     #contato #nome_fantasia, #contato #cnpj{
-        font-size: 11px;
+        font-size: 10px;
     }
     
     #contato span{
@@ -181,7 +180,7 @@
     }
 
     #contato #nome_fantasia, #contato #cnpj{
-        font-size: 10px;
+        font-size: 9px;
     }
     
     #contato span{
