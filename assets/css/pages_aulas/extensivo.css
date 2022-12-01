@@ -16,6 +16,7 @@
 
 #extensivo #bloco_aulas{
     margin: 5%;
+    width: 100%;
 }
 
 #extensivo .linha_aulas{
@@ -46,4 +47,42 @@
     margin-top: 0.7%;
     padding-left: 5%;
     font-size: 22px;
+}
+
+#extensivo #chat{
+    z-index: 1;
+    display: block;
+    margin-top: 10em;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    align-content: end;
+    height: 100vh;
+}
+
+#extensivo #chat p{
+    margin: 1%;
+    background-color: #9E0303;
+    color: white;
+    font-size: 20px;
+    padding: 7%;
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    align-content: end;
+    height: 5%;
+}
+
+#extensivo #chat #espaco_msg{
+    margin: 0 2px;
+    border: #cecece solid 2px;
+    border-top: 0;
+    height: 100vh;
+    align-content: end;
+
+}
+
+#extensivo #chat input{
+    align-content: end;
+
 }

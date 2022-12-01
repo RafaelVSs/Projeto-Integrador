@@ -18,7 +18,7 @@
         </div>
         <div id="textlogo">
             <p id="logo_text"><a href="#inicio">PREPARATEC</a></p>
-            <p id="logo_text2">INSPIRED BY <a href="https://brasil.un.org/pt-br/sdgs/4">ONU ODS 4</a></p>
+            <p id="logo_text2" style="color: black;">INSPIRED BY <a href="https://brasil.un.org/pt-br/sdgs/4">ONU ODS 4</a></p>
         </div>
     </div>
     <div id="navegacao">
@@ -41,30 +41,29 @@
 
   <main>
     <section>
-      <div id="login">
-        <h1>LOGIN</h1>
-      </div>
       <div>
         <form action="obrigado.html">
-
+          <div id="login">
+            <h1>CADASTRO</h1>
+          </div>
           <div>
-            <label for="crtl_name">Nome: </label>
+            <label for="crtl_name" class="dados">Nome: </label>
             <input id="crtl_name" class="input_forms" type="text" placeholder="Digite seu nome">
           </div>
           <br>
           <div>
-            <label for="crtl_email">Email: </label>
+            <label for="crtl_email" class="dados">Email: </label>
             <input id="crtl_email" class="input_forms" type="email" placeholder="Digite seu email">
           </div>
           <br>
           <div>
-            <label for="crtl_email">Senha: </label>
+            <label for="crtl_email" class="dados">Senha: </label>
             <input id="crtl_password" class="input_forms" type="password" placeholder="Digite sua senha">
           </div>
           <br>
           
           <div>
-            <label for="crtl_level">Escolaridade: </label>
+            <label for="crtl_level" id="select_escolaridade">Escolaridade: </label>
             <div id="crtl_level">
               <input id="crtl_level_1" name="level" type="radio">
               <label for="crtl_level_1">Fundameltal</label>
@@ -75,7 +74,8 @@
             </div>
             <br>
             <div>
-              <label for="crtl_course">Escolha os cursos de sua preferência: </label>
+              
+              <label for="crtl_course" id="select_cursos">Escolha os cursos de sua preferência: </label>
               <div id="crtl_course">
   
                 <div>
@@ -102,7 +102,7 @@
                 <br>
               
               </div>
-              <input type="submit" value="Enviar">
+              <div style="text-align: center"><input id="bot_enviar" type="submit" value="Enviar"></div>
         </form>
 
       </div>

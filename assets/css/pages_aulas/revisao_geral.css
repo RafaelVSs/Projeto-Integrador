@@ -1,5 +1,5 @@
 #revisao_geral{
-
+    justify-content: center;
 }
 
 #revisao_geral h2{
@@ -10,10 +10,12 @@
 }
 
 #revisao_geral{
+
     justify-content: center;
 }
 
 #revisao_geral .page{
+    margin-top: 10.5em;
     width: 90%;
 }
 
