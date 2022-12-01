@@ -59,7 +59,6 @@
     padding: 0.7em;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.15);
-
 }
 
 #extensivo #chat p{
@@ -86,13 +85,13 @@
 #extensivo #chat #enviar{
     display: flex;
     margin-top: 5%;
-    
 }
 
 #extensivo #chat #enviar input{
     background-color: rgb(206, 206, 206, 0.5);
     border: #ffffff solid 2px;
     border-radius: 5px;
+    width: 90%;
 }
 
 #extensivo #chat #enviar input:focus{
@@ -104,4 +103,29 @@
     border: #ffffff solid 2px;
     border-radius: 5px;
     margin-left: 5%;
+}
+
+
+@media screen and (max-width: 1700px) {
+
+}
+
+@media screen and (max-width: 1450px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 510px) {
+
 }

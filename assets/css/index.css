@@ -67,7 +67,7 @@ header #navegacao a:hover{
     transition: 0.5s;
     background-color: #ffffff;
     color: #9E0303;
-    border-radius: 1em;
+    border-radius: 0.7em;
 }
 
 header a{
@@ -87,6 +87,7 @@ header #bot_login a:hover{
     transition: 0.5s;
     background-color: #ffffff;
     color: black;
+    padding: 5px;
 }
 
 header #bot_cadastro{
@@ -98,7 +99,7 @@ header #bot_cadastro{
 
 header #bot_cadastro a:hover{
     transition: 0.5s;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 header #detalhe_linha{
