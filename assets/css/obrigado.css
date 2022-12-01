@@ -6,15 +6,15 @@
     margin-top: 50vh;
     
 }
-p{
+#agradecimento p{
     font-size: 20px;
 }
-form{
+#agradecimento form{
     margin-top: 2%;
     text-align: center;
 }
 
-input{
+#agradecimento input{
     background-color: #9E0303;
     border: 0;
     color: white;

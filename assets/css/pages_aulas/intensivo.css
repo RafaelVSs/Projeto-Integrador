@@ -53,3 +53,59 @@
     padding-left: 5%;
     font-size: 22px;
 }
+
+#intensivo #chat{
+    margin: auto 1%;
+    align-items: center;
+    width: 12vw;
+    margin-top: 10em;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 0.7em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255);
+
+}
+
+#intensivo #chat p{
+    background-color: #9E0303;
+    color: white;
+    font-size: 20px;
+    padding: 5%;
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    align-content: end;
+    height: 2%;
+}
+
+#intensivo #chat #espaco_msg{
+    background-image: url(../../img/background_chat.png);
+    border-top: 0;
+    height: 35vh;
+    align-content: end;
+    border: #9E0303 solid 2px;
+    border-top: 0;
+}
+
+#intensivo #chat #enviar{
+    display: flex;
+    margin-top: 5%;    
+}
+
+#intensivo #chat #enviar input{
+    background-color: white;
+    border: rgb(206, 206, 206) solid 2px;
+    border-radius: 5px;
+}
+
+#intensivo #chat #enviar input:focus{
+    border: #9E0303 solid 2px;
+}
+
+#intensivo #chat #enviar button{
+    background-color: #ffffff;
+    border: #cecece solid 2px;
+    border-radius: 5px;
+    margin-left: 5%;
+}

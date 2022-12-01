@@ -50,39 +50,58 @@
 }
 
 #extensivo #chat{
-    z-index: 1;
-    display: block;
-    margin-top: 10em;
-    justify-content: right;
+    margin: auto 1%;
     align-items: center;
-    align-content: center;
-    align-content: end;
-    height: 100vh;
+    width: 12vw;
+    margin-top: 10em;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 0.7em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.15);
+
 }
 
 #extensivo #chat p{
-    margin: 1%;
     background-color: #9E0303;
     color: white;
     font-size: 20px;
-    padding: 7%;
+    padding: 5%;
     text-align: center;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     align-content: end;
-    height: 5%;
+    height: 2%;
 }
 
 #extensivo #chat #espaco_msg{
-    margin: 0 2px;
-    border: #cecece solid 2px;
+    background-image: url(../../img/background_chat.png);
     border-top: 0;
-    height: 100vh;
+    height: 35vh;
     align-content: end;
-
+    border: #9E0303 solid 2px;
+    border-top: 0;
 }
 
-#extensivo #chat input{
-    align-content: end;
+#extensivo #chat #enviar{
+    display: flex;
+    margin-top: 5%;
+    
+}
 
+#extensivo #chat #enviar input{
+    background-color: rgb(206, 206, 206, 0.5);
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+}
+
+#extensivo #chat #enviar input:focus{
+    border: #9E0303 solid 2px;
+}
+
+#extensivo #chat #enviar button{
+    background-color: #cecece;
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+    margin-left: 5%;
 }

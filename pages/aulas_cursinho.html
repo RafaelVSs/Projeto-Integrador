@@ -16,29 +16,29 @@
   </head>
   <body>
     <header>
-      <nav>
+        <nav>
             <div id="logo">
                 <div id="logo_img" >
-                    <a href="#inicio"><img src ="../assets/img/DALL·E Boy reading an open book logo.svg" alt="logo"></a>
+                    <a href="../index.html#inicio"><img src ="../assets/img/DALL·E Boy reading an open book logo.svg" alt="logo"></a>
                 </div>
-                <div>
-                    <p id="logo_text"><a href="#inicio">PREPARATEC</a></p>
-                    <div id="detalhe_linha_logo"></div>
-                    <p id="logo_text2">INSPIRED BY <a href="https://brasil.un.org/pt-br/sdgs/4">ONU ODS 4</a></p>
+                <div id="textlogo">
+                    <p id="logo_text"><a href="../index.html#inicio">PREPARATEC</a></p>
+                    <p id="logo_text2">INSPIRED BY <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank">ONU ODS 4</a></p>
                 </div>
             </div>
             <div id="navegacao">
-            <ul>
-                <li><a href="../index.html#inicio">INÍCIO</a></li>
-                <li><a href="../index.html#cursos">CURSOS</a></li>
-                <li><a href="../index.html#calendario">CALENDÁRIO</a></li>
-                <li><a href="../index.html#disciplinas">DICIPLINAS</a></li>
-                <li><a href="../index.html#contato">CONTATO</a></li>
-                <li>|</li> 
-                <li id="bot_cadastro"><a href="cadastro.html">CADASTRE-SE</a></li>
-            </ul>
+                <ul>
+                    <li><a href="../index.html#inicio">INÍCIO</a></li>
+                    <li><a href="../index.html#cursos">CURSOS</a></li>
+                    <li><a href="../index.html#calendario">CALENDÁRIO</a></li>
+                    <li><a href="../index.html#disciplinas">DICIPLINAS</a></li>
+                    <li><a href="../index.html#contato">CONTATO</a></li>
+                    <li>|</li> 
+                    <li id="bot_login"><a href="login.html">LOGIN</a></li>
+                    <li id="bot_cadastro"><a href="cadastro.html">CADASTRE-SE</a></li>
+                </ul>
             </div>
-        </nav>
+            </nav>
         <nav id="nav_aulas_cursinho">
             <div id="detalhe_linha_sup"></div>
             <ul>
@@ -48,10 +48,10 @@
                 <li><a href="#intensivo">Cursinho Intensivo</a></li>
             </ul>
         </nav>
-      <div id="detalhe_linha"></div>
+        <div id="detalhe_linha"></div>
     </header>
-
     
+
     <main>
         <section id="extensivo">
             <div class="page">
@@ -101,14 +101,16 @@
 
 
             </div>
-            <section id="local_chat">
-                <div id="chat">
-                    <p>CHAT DA AULA</p>
-                    <div id="espaco_msg"></div>
-                    <input type="text">
-    
+
+            <div id="chat">
+                <p>CHAT DA AULA</p>
+                <div id="espaco_msg"></div>
+                <div id="enviar">
+                    <input type="text" value="Envie sua mensagem">
+                    <button><img src="../assets/img/enviar_chat.png" alt="" width="20px"></button>
                 </div>
-            </section>
+
+            </div>
         </section>
 
 
@@ -259,6 +261,15 @@
                 </div>
             </div>
 
+            <div id="chat">
+                <p>CHAT DA AULA</p>
+                <div id="espaco_msg"></div>
+                <div id="enviar">
+                    <input style="color: black;" type="text" value="Envie sua mensagem">
+                    <button><img src="../assets/img/enviar_chat.png" alt="" width="20px"></button>
+                </div>
+
+            </div>
         </section>
 
     </main>

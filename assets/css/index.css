@@ -76,6 +76,19 @@ header a{
     
 }
 
+header #bot_login{
+    background-color: #b4b4b4;
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header #bot_login a:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: black;
+}
+
 header #bot_cadastro{
     background-color: #ffffff;
     border-radius: 1em;
@@ -116,6 +129,13 @@ header #nav_aulas_cursinho ul{
 
 header #nav_aulas_cursinho li{
     padding: 0.5% 5%;
+}
+
+header #nav_aulas_cursinho a:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #9E0303;
+    border-radius: 1em;
 }
 
 
