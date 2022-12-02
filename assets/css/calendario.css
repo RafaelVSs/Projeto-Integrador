@@ -43,8 +43,13 @@
 #calendario #tabela .p_rodape p{
     border: 1.5px solid #9E0303;
     border-radius: 5px;
+    
 }
 
 #calendario a{
     text-decoration: none;
+}
+
+#calendario #tabela .descricao_dia{
+    min-height: 130px;
 }
