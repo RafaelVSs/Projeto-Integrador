@@ -1,6 +1,6 @@
 /*CONTATO*/
 #contato{
-    background-image: url(../img/Contatos2.png);
+    
     background-color: #2b0606;
     background-size: contain;
     background-repeat: round;
@@ -25,7 +25,7 @@
     text-align: center;
     padding: 2.5% 0% 6% 0%;
     font-size: 34px;
-    color: #9E0303;
+    color: #FFF;
 }
 
 #contato #links{

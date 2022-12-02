@@ -1,9 +1,12 @@
 #calendario #cabecalho_calendario h2{
-    font-size: 50px;
+    font-size: 55px;
+    margin-left: 5%;
+    width: 70%;
     color: #9E0303;
 }
 
 #calendario #cabecalho_calendario h3{
+
     margin-top: 25px;
     text-align: center;
     font-size: 25px;
@@ -13,6 +16,7 @@
 #calendario .page{
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 20px;
 }
 
 #calendario .conteudo{
